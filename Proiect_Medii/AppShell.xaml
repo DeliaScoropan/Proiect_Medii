@@ -8,15 +8,15 @@
 
     <TabBar>
         <ShellContent
- Title="Welcome to Items"
+  Icon="tab_home.svg" 
  ContentTemplate="{DataTemplate local:MainPage}"
  />
         <ShellContent
- Title="About"
+ Icon="about_us.svg" 
  ContentTemplate="{DataTemplate local:AboutPage}"
  />
         <ShellContent
- Title="Items List"
+ Icon="shoplist.svg" 
  ContentTemplate="{DataTemplate local:List}"
  />
     </TabBar>

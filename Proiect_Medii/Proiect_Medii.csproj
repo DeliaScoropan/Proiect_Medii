@@ -49,7 +49,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\about.svg" />
+	  <None Remove="Resources\Images\about_us.svg" />
+	  <None Remove="Resources\Images\background2.png" />
+	  <None Remove="Resources\Images\shoplist.svg" />
 	  <None Remove="Resources\Images\shop_list.svg" />
+	  <None Remove="Resources\Images\shop_ski.svg" />
+	  <None Remove="Resources\Images\snow.png" />
+	  <None Remove="Resources\Images\tab_home.svg" />
 	</ItemGroup>
 
 	<ItemGroup>

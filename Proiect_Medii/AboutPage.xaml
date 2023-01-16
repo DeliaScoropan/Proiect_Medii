@@ -3,16 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Proiect_Medii.AboutPage"
              Title="AboutPage">
-    
-    <VerticalStackLayout Spacing="10" Margin="10">
-        <HorizontalStackLayout Spacing="10">
-            <Image Source="shop_list.svg"
+
+
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="background2.png" VerticalOptions="Fill" Aspect="Fill"/>
+
+
+            <VerticalStackLayout Spacing="10" Margin="10">
+                <HorizontalStackLayout Spacing="10">
+                    <Image Source="shop_ski.svg"
                 SemanticProperties.Description="Shop our Ski Items"
                 HeightRequest="64" />
-            <Label FontSize="22" FontAttributes="Bold" Text="Shopping List" VerticalOptions="End" />
-            <Label FontSize="22" Text="v1.0" VerticalOptions="End" />
-        </HorizontalStackLayout>
-        <Label Text="Shopping list App" />
+                    <Label FontSize="22" FontAttributes="Bold" Text="Ski Shop" VerticalOptions="End" />
+                    <Label FontSize="22"  VerticalOptions="End" />
+                </HorizontalStackLayout>
+                <Label Text="Shop our Ski Items" />
+                <Grid>
+                    <Grid RowDefinitions="Auto,Auto,Auto,Auto" Padding="20,45,20,0" >
+                        <Label Grid.Row="1" Text="Ski Products" FontSize="30" FontAttributes="Bold"/>
+                        <Label Grid.Row="2" Text="Huge collection of ski products at low offer price, Easy Returns and Exchanges. Order Now."  FontSize="20" Padding="0,15" TextColor="#2C363C" FontAttributes="Bold" />
+                    </Grid>
+                </Grid>
 
-    </VerticalStackLayout>
+            </VerticalStackLayout>
+        </Grid>
+    </ContentPage.Content>
 </ContentPage>

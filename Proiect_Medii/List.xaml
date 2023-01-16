@@ -4,6 +4,8 @@
              x:Class="Proiect_Medii.List"
              Title="List">
     
+    
+   
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Add Shopping List"
  Clicked="OnShopListAddedClicked" />
